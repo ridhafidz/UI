@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTERin - Adventure Planning</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white font-sans">
+  <!-- Header -->
+  <header class="bg-green-900 text-white fixed w-full z-10">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold">PORTERin</div>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-green-300">Home</a></li>
+        <li><a href="#services" class="hover:text-green-300">Service</a></li>
+        <li><a href="#about" class="hover:text-green-300">About</a></li>
+        <li><a href="#contact" class="hover:text-green-300">Contact</a></li>
+      </ul>
+      <button class="start-btn">Mulai</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center bg-gray-200 pt-16" style="background-image: url('./assets/img/hero.jpg'); background-size: 1442px 700px; background-position: center; background-repeat: no-repeat;">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6">
+      <div class="md:w-1/2">
+        <h1 class="text-4xl font-bold mb-4 text-black">Pilihan Tepat untuk Kamu si Paling Penjelajah Alam</h1>
+        <p class="text-lg mb-6 text-black">PORTERin hadir untuk membantu kamu merencanakan penjelajahan alam nusantara dengan lebih mudah dan ringan.</p>
+        <a href="#" class="btn bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">Mulai Menjelajah</a>
+      </div>
+      <div class="md:w-1/2 mt-6 md:mt-0">
+        <img src="assets/img/hero-card.jpg" alt="Penjelajahan Alam" class="w-full h-64 md:h-96 object-cover rounded-lg">
+      </div>
+    </div>
+</section>
+
+<section id="About" class="py-16 bg-green-900">
+  <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4 text-white">Publication</h2>
+      <p class="text-lg mb-6 text-white">Ikuti media sosial kami untuk melihat perjalanan kami selama menemani penjelajah alam Nusantara</p>
+      <div class="social-icons flex justify-center space-x-6">
+          <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/instagram.svg" alt="Instagram" class="w-10 h-10"></a>
+          <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/facebook.svg" alt="Facebook" class="w-10 h-10"></a>
+          <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/tiktok.svg" alt="TikTok" class="w-10 h-10"></a>
+          <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/twitter.svg" alt="Twitter" class="w-10 h-10"></a>
+          <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" alt="LinkedIn" class="w-10 h-10"></a>
+      </div>
+  </div>
+</section>
+
+  <!-- Benefits Section -->
+  <section id="benefits" class="py-16 bg-gray-300">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-4">Benefit yang Kami Tawarkan</h2>
+      <p class="text-lg mb-6">Kami menawarkan berbagai kemudahan untuk mendukung momen penjelajahan anda:</p>
+      <ul class="list-disc pl-6 text-lg">
+        <li>Anda tidak perlu membawa banyak barang</li>
+        <li>Anda tidak perlu mengurus perizinan cagar alam</li>
+        <li>Anda tidak perlu repot dengan konsumsi</li>
+        <li>Anda tidak perlu takut ketika terjadi cidera</li>
+        <li>Anda tidak perlu takut kekurangan informasi</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="py-16 bg-green-900">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6">
+      <div class="md:w-1/2">
+        <img src="assets/img/services.jpg" alt="Penjelajahan Alam" class="w-full h-64 md:h-96 object-cover rounded-lg">
+      </div>
+      <div class="md:w-1/2 mt-6 md:mt-0 md:pl-12">
+        <h2 class="text-2xl font-bold mb-4 text-white">Mau Penjelajahan yang Lebih Seru?</h2>
+        <p class="text-lg mb-6 text-white">Explore berbagai benefit yang kami tawarkan, silahkan kunjungi website resmi kami untuk informasi yang anda cari-cari.</p>
+        <a href="#services" class="btn bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">Mulai Menjelajah</a>
+      </div>
+    </div>
+</section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 bg-gray-300">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-4">Apa Kata Mereka Tentang PORTERin?</h2>
+      <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-lg italic">“Mudah beneran no fake-fake, aku pake ini waktu ke Gunung Buthak beneran enak banget...”</p>
+          <p class="mt-4 font-bold">Feby, Sobat PORTERin</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-lg italic">“Jadikanlah perjalananmu berarti dan tidak menimbulkan trauma...”</p>
+          <p class="mt-4 font-bold">Fiersa Besari, Pendaki Profesional</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-green-900">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-4 text-white">Services</h2>
+      <p class="text-lg mb-6 text-white">Berikut merupakan layanan yang kami berikan, beserta sedikit gambarannya:</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="assets/img/layanan2.jpg" alt="Porter di Pendakian" class="w-full h-64 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mt-4 text-gray-800">Menjadi Porter di Pendakian</h3>
+            <a href="#" class="text-blue-600 hover:underline">Selengkapnya</a>
+          </div>
+        </div>
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="assets/img/layanan1.jpg" alt="Menyiapkan Logistik" class="w-full h-64 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mt-4 text-gray-800">Menyiapkan Logistik</h3>
+            <a href="#" class="text-blue-600 hover:underline">Selengkapnya</a>
+          </div>
+        </div>
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="assets/img/layanan3.jpg" alt="Sewa Peralatan" class="w-full h-64 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mt-4 text-gray-800">Menyediakan Sewa Peralatan</h3>
+            <a href="#" class="text-blue-600 hover:underline">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-400 py-12">
+    <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h3 class="text-xl font-bold mb-4">Latest Blog Post</h3>
+        <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p class="text-lg mt-4 font-bold">Ready to get started?</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold mb-4">PORTERin</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-green-300">Home</a></li>
+          <li><a href="#services" class="hover:text-green-300">Service</a></li>
+          <li><a href="#about" class="hover:text-green-300">About</a></li>
+          <li><a href="#contact" class="hover:text-green-300">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold mb-4">Layanan</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-green-300">Sewa Alat</a></li>
+          <li><a href="#" class="hover:text-green-300">Rencana Perjalanan</a></li>
+          <li><a href="#" class="hover:text-green-300">Menyediakan P3K</a></li>
+          <li><a href="#" class="hover:text-green-300">Sewa Porter</a></li>
+          <li><a href="#" class="hover:text-green-300">Transportasi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container mx-auto px-6 mt-6 text-center">
+      <p>© 2025 PORTERin. All rights reserved | <a href="#" class="hover:text-green-300">Privacy</a> | <a href="#" class="hover:text-green-300">Terms</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
